@@ -1,0 +1,6 @@
+import re
+lin = 'From stephen.marquard@uct.ac.za Sta Jan 5 09:14:16 2008'
+
+y = re.findall('@([^ ]*)', lin)
+
+print(y)

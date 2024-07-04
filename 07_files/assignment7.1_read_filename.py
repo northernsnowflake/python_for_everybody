@@ -1,4 +1,4 @@
-# use 07/words.txt as the file name
+# use words.txt as the file name
 fname = input("Enter file name: ")
 try:
     fh = open(fname)
